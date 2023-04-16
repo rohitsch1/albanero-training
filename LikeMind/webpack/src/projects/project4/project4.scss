@@ -1,0 +1,89 @@
+// @import '~@mui/material/styles';
+// @import '~@mui/material/colors';
+
+
+$primary-color: #6200EE;
+$secondary-color: #FF1744;
+
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.Typography {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.Card {
+  margin: 16px auto;
+  max-width: 500px;
+
+  .CardContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .Typography {
+      margin-top: 16px;
+      margin-bottom: 8px;
+    }
+
+    .Typography--likes {
+      margin-top: 8px;
+      margin-bottom: 16px;
+      color: $primary-color;
+    }
+
+    .Typography--liked-by {
+      margin-top: 8px;
+      margin-bottom: 16px;
+      font-size: 12px;
+      color: $secondary-color;
+    }
+  }
+
+  .CardActions {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+
+    .Button {
+      margin-left: 8px;
+      margin-right: 8px;
+    }
+
+    .Button--like {
+      color: $primary-color;
+    }
+
+    .Button--dislike {
+      color: $secondary-color;
+    }
+  }
+}
+
+
+.MuiSelect-select.MuiSelect-select {
+  padding-left: 16px;
+  padding-right: 16px;
+  font-weight: bold;
+}
+
+.MuiMenuItem-root {
+  font-weight: bold;
+}
+
+.MuiButtonBase-root.MuiButton-root.MuiButton-text {
+  text-transform: none;
+}
+
+.MuiTypography-root.MuiTypography-caption {
+  font-size: 14px;
+  color: $primary-color;
+}

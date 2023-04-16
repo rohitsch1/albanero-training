@@ -1,0 +1,50 @@
+.Main_div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    .submit_button {
+        margin-left: 90%;
+        margin-bottom: 10%;
+    }
+
+   
+    h1{
+        font-size: 5rem;
+        background-color: aqua;
+    }
+
+    .input_div{
+      
+        
+        label {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1.5rem;
+            select{
+                border: none;
+                padding: 12px;
+                border-radius: 3px;
+                width: 150px;
+                font-size: 14px;
+            }
+            input {
+                border: none;
+                background: #f2f2f2;
+                padding: 12px;
+                border-radius: 3px;
+                width: 250px;
+                font-size: 14px;
+            }
+        }
+    
+    }
+    .reset_button{
+        margin-left: 90%;
+        margin-top: 20%;
+    }
+    button {
+        height: 40px;
+        width: 100px;
+        background-color: lightblue;
+    }
+}

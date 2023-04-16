@@ -1,0 +1,29 @@
+/* .title{
+    font-family: times, Times New Roman, times-roman, georgia, serif;
+	color: #444;
+	padding: 0px 0px 6px 0px;
+	font-size: 51px;
+	line-height: 44px;
+	letter-spacing: -2px;
+	font-weight: bold;
+    text-align: center;
+    padding-top: 2%;
+}
+ .home-details{
+    display: flex;
+    flex-direction: row;
+}
+.main{
+    background-color: #F3DEBA;
+}
+App{
+    background-color: #B8621B; 
+}
+
+/* .display{
+    display: flex;
+    flex-direction: row;
+    height:100% ;
+    width:100%;
+}  */
+

@@ -1,0 +1,24 @@
+
+.flex-container{
+  display: flex;
+  gap: 20px;
+  width: 900px;
+  height: 900px;
+  background-color: orchid;
+  flex-wrap: wrap;
+  /* flex:1;   */
+  overflow: scroll;
+  align-items: flex-start;
+  align-content: baseline;
+}
+
+.flex-container div {
+  width: 150px;
+  height: 150px;
+  border-radius: 14%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: aqua;
+  
+}

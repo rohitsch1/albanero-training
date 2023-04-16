@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+  }
+  
+  .heroSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #f5f5f5;
+    a {
+        color: #007bff;
+        display: block;
+        margin-top: 2%;
+      }
+    img{
+        max-width:350px;
+        margin-top:3%;
+      }
+        
+  }
+ 
+  .heroContent {
+    text-align: center;
+  }
+  
+  .projectsSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    background: #fff;
+  }
+  
+  .projectsContent {
+    text-align: center;
+  }
+  
+  
+  
+  
