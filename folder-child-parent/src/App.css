@@ -1,0 +1,117 @@
+.container {
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease-in-out;
+}
+
+.form:hover {
+  background-color: #eee;
+  cursor: pointer;
+}
+
+.form-check-label {
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #eee;
+  transition: all 0.2s ease-in-out;
+}
+
+.header:hover {
+  background-color: #ddd;
+}
+
+.header svg {
+  width: 20px;
+  height: 20px;
+}
+
+.content {
+  padding-left: 30px;
+}
+
+.form-check {
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+
+.form-check-input {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #0c471a;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.form-check-input:hover {
+  background-color: #0f400e;
+}
+
+.form-check-input:checked {
+  background-color: #007bff;
+}
+
+.form-check-input:checked:hover {
+  background-color: #0062cc;
+}
+
+.form-check-input:checked + .form-check-label {
+  color: rgb(4, 218, 68);
+}
+
+.collapsible {
+  margin-left: 30px;
+}
+.parent-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-size: 20px;
+  color: #333;
+  
+  
+}
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.react-switch-bg {
+  background-color: #eee;
+}
+
+.react-switch-handle {
+  background-color: #0077FF;
+}
+

@@ -1,0 +1,132 @@
+/* Style for login page */
+.login-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .login-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #444;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f2f2f2;
+  }
+  
+  .login-form input:focus {
+    outline: none;
+    box-shadow: 0 0 5px #6fb9f0;
+  }
+  
+  .login-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #6fb9f0;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-form button:hover {
+    background-color: #4495d1;
+  }
+  
+  .login-form p {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .signup-link {
+    color: #6fb9f0;
+    text-decoration: none;
+  }
+  
+  .signup-link:hover {
+    text-decoration: underline;
+  }
+  
+
+  /* Style for signup page */
+.signup-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .signup-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #444;
+  }
+  
+  .signup-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f2f2f2;
+  }
+  
+  .signup-form input:focus {
+    outline: none;
+    box-shadow: 0 0 5px #6fb9f0;
+  }
+  
+  .signup-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #6fb9f0;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signup-form button:hover {
+    background-color: #4495d1;
+  }
+  
